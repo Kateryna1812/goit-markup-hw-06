@@ -18,6 +18,9 @@
         <div class="container header-container"> 
     <nav class="header-navigation">
         <a class="header-web-link" href="./index.html">WEB<span  class="header-web-logo">Studio</span></a>
+        <button type="button" class="menu-open-btn"><svg class="btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-hero-icons-menu"></use>
+            </svg></button>
 <ul class="header-menu">
     <li class="header-menu-item"> <a class="header-menu-link current" href="./index.html">Studio</a></li>
     <li class="header-menu-item"> <a class="header-menu-link" href="">Portfolio</a></li>
@@ -30,6 +33,46 @@
      <li class="header-address-item"> <a class="header-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
      </ul>
 </address>
+</div>
+<div class="mob-menu">
+       <div> 
+        <button type="button" class="menu-close-btn">
+            <svg class="btn-icon-mob" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+    <ul class="mob-menu-list">
+        <li class="mob-menu-item"> <a class="mob-menu-link " href="./index.html">Studio</a></li>
+        <li class="mob-menu-item"> <a class="mob-menu-link" href="">Portfolio</a></li>
+        <li class="mob-menu-item"> <a class="mob-menu-link" href="">Contacts</a></li>
+    </ul>
+</div>
+    <address class="mob-address">
+        <ul class="mob-address-list">
+            <li class="mob-address-item"> <a class="mob-address-link"
+                    href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+            <li class="mob-address-item"> <a class="mob-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+        </ul>
+    </address>
+    <ul class="mob-media-list">
+        <li class="mob-media-item"><a class="mob-media-link" href=""><svg class="mob-media-icon" width="24"
+                    height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                </svg></a></li>
+        <li class="mob-media-item"><a class="mob-media-link" href=""><svg class="mob-media-icon" width="24"
+                    height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                </svg></a></li>
+        <li class="mob-media-item"><a class="mob-media-link" href=""><svg class="mob-media-icon" width="24"
+                    height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                </svg></a></li>
+        <li class="mob-media-item"><a class="mob-media-link" href=""><svg class="mob-media-icon" width="24"
+                    height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg></a></li>
+    </ul>
 </div>
  </header>
     <main>
@@ -82,7 +125,10 @@ problem to walk away with the perfect and creative solution.</p>
             <h2 class="our-title">Our Team</h2>
             <ul class="our-list">
                 <li class="our-item">
-                    <img src="./images/img.jpg" width="264" height="260" alt="Mark Guerrero" class="our-img">
+                    <img 
+                    srcset="./images/img.jpg 1x,
+                    ./images/img-2x.jpg 2x"
+                    src="./images/img.jpg" width="264" height="260" alt="Mark Guerrero" class="our-img">
                     <div class="our-work">
                     <h3 class="our-subtitle">Mark Guerrero</h3>
                     <p class="our-text">Product Designer
@@ -101,7 +147,10 @@ problem to walk away with the perfect and creative solution.</p>
                     </div>
                 </li>
                 <li class="our-item">
-                    <img src="./images/img-1.jpg" width="264" height="260" alt="Tom Ford" class="our-img">
+                    <img 
+                    srcset="./images/img-1.jpg 1x,
+                    ./images/img-1-2x.jpg 2x"
+                    src="./images/img-1.jpg" width="264" height="260" alt="Tom Ford" class="our-img">
                     <div class="our-work">
                     <h3 class="our-subtitle">Tom Ford</h3>
                     <p class="our-text">Frontend Developer</p>
@@ -114,7 +163,10 @@ problem to walk away with the perfect and creative solution.</p>
                     </div>
                 </li>
                 <li class="our-item">
-                    <img src="./images/img-2.jpg" width="264" height="260" alt="Camila Garcia" class="our-img">
+                    <img 
+                    srcset="./images/img-2.jpg 1x,
+                    ./images/img-2-2x.jpg 2x"
+                    src="./images/img-2.jpg" width="264" height="260" alt="Camila Garcia" class="our-img">
                     <div class="our-work">
                     <h3 class="our-subtitle">Camila Garcia</h3>
                     <p class="our-text">Marketing</p>
@@ -127,7 +179,10 @@ problem to walk away with the perfect and creative solution.</p>
             </div>
                 </li>
                 <li class="our-item">
-                    <img src="./images/img-3.jpg" width="264" height="260" alt="Daniel Wilson" class="our-img">
+                    <img 
+                    srcset="./images/img-3.jpg 1x,
+                    ./images/img-3-2x.jpg 2x"
+                    src="./images/img-3.jpg" width="264" height="260" alt="Daniel Wilson" class="our-img">
                     <div class="our-work">
                     <h3 class="our-subtitle">Daniel Wilson</h3>
                     <p class="our-text">UI Designer</p>
@@ -147,7 +202,10 @@ problem to walk away with the perfect and creative solution.</p>
             <h2 class="portfolio-title">Our Portfolio</h2>
             <ul class="portfolio-list">
                 <li class="portfolio">
-                    <div class="portfolio-cover-wrap"><img src="./images/img-card-1.jpg" width="360"
+                    <div class="portfolio-cover-wrap"><img
+                    srcset="./images/img-card-1.jpg 1x,
+                    ./images/card-1-2x.jpg 2x" 
+                    src="./images/img-card-1.jpg" width="360"
  alt="Banking App" class="portfolio-img"><p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
     App · Exotic Fruit Ecommerce
     App ·
@@ -158,7 +216,10 @@ problem to walk away with the perfect and creative solution.</p>
                     </div>
                 </li>
                 <li class="portfolio">
-                    <div class="portfolio-cover-wrap"><img src="./images/img-card-2.jpg" width="360"
+                    <div class="portfolio-cover-wrap"><img 
+                    srcset="./images/img-card-2.jpg 1x,
+                        ./images/card-2-2x.jpg 2x"    
+                    src="./images/img-card-2.jpg" width="360"
  alt="Cashless Payment" class="portfolio-img">
 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
     App ·
@@ -169,7 +230,10 @@ problem to walk away with the perfect and creative solution.</p>
                 </div>
             </li>
                 <li class="portfolio">
-                    <div class="portfolio-cover-wrap"><img src="./images/img-card-3.jpg"  width="360"
+                    <div class="portfolio-cover-wrap"><img 
+                    srcset="./images/img-card-3.jpg 1x,
+                        ./images/card-3-2x.jpg 2x"    
+                    src="./images/img-card-3.jpg"  width="360"
  alt="Meditation App" class="portfolio-img"><p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
     App · Exotic Fruit Ecommerce
     App ·
@@ -180,7 +244,10 @@ problem to walk away with the perfect and creative solution.</p>
                 </div>
                 </li>
                 <li class="portfolio">
-                    <div class="portfolio-cover-wrap"><img src="./images/img-card-4.jpg" width="360"
+                    <div class="portfolio-cover-wrap"><img 
+                    srcset="./images/img-card-4.jpg 1x,
+                        ./images/card-4-2x.jpg 2x"    
+                    src="./images/img-card-4.jpg" width="360"
  alt="Taxi Service" class="portfolio-img"><p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
     App · Exotic Fruit Ecommerce
     App ·
@@ -191,7 +258,10 @@ problem to walk away with the perfect and creative solution.</p>
                 </div>
                 </li>
                 <li class="portfolio">
-                    <div class="portfolio-cover-wrap"><img src="./images/img-card-5.jpg" width="360"
+                    <div class="portfolio-cover-wrap"><img 
+                    srcset="./images/img-card-5.jpg 1x,
+                        ./images/card-5-2x.jpg 2x"
+                    src="./images/img-card-5.jpg" width="360"
  alt="Screens Illustration" class="portfolio-img"><p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
     App · Exotic Fruit Ecommerce
     App ·
@@ -202,7 +272,10 @@ problem to walk away with the perfect and creative solution.</p>
                 </div>
                 </li>
                 <li class="portfolio">
-                    <div class="portfolio-cover-wrap"><img src="./images/img-card-6.jpg" width="360"
+                    <div class="portfolio-cover-wrap"><img 
+                    srcset="./images/img-card-6.jpg 1x,
+                    ./images/card-6-2x.jpg 2x"    
+                    src="./images/img-card-6.jpg" width="360"
 alt="Online Courses" class="portfolio-img"><p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
     App · Exotic Fruit Ecommerce
     App ·
@@ -242,8 +315,8 @@ alt="Online Courses" class="portfolio-img"><p class="portfolio-cover-text">14 St
                             <use href="./images/icons.svg#icon-linkedin"></use>
                         </svg></a></li>
             </ul>
-        </div>
-        <div class="footer-email-container">
+        </div> 
+         <div class="footer-email-container">
             <p class="footer-subscribe">Subscribe</p>
             <form class="footer-subscribe-form">
             <label for="user-e-email" class="footer-user"><input type="email" name="user-e-email" class="footer-email" id="user-e-email" placeholder="E-mail"></label>
@@ -252,7 +325,7 @@ alt="Online Courses" class="portfolio-img"><p class="portfolio-cover-text">14 St
 </div>
         </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
         <div class="modal">
             <button type="button" class="modal-btn">
                 <svg class="modal-btn-icon" width="8" height="8">
