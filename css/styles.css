@@ -75,6 +75,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .header-menu {
@@ -1070,20 +1072,17 @@ fill: #F4F4FD;
 
                .social-media-web{
                 display: block;
-                margin-bottom: 72px;
+                margin-right: 24px;
                 text-align: left;
                }
 
                .footer-subscribe {
                 text-align: left;
                }
-                    .footer-subscribe-form {
+                .footer-subscribe-form {
                     display: block;
                 }
    
-     .social-media-1 {
-      display: inline-block;
-         }
 
          .social-media-text{
        text-align: left;
@@ -1107,6 +1106,7 @@ fill: #F4F4FD;
      }
 .footer-email {
   width: 264px;
+  margin-right: 24px;
 }
          }
 
